@@ -2,8 +2,12 @@
     flex-direction: column;
     padding-bottom: 0.5rem;
     padding-bottom: 0.5rem;
-    overflow: hidden;
+    /*overflow: hidden;*/
     height: 90px;
+}
+
+#navbar ul{
+    flex-wrap: wrap;
 }
 
 #training .items{
