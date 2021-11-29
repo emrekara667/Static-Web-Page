@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0 />
+    <title>Emre KARA - RESUME</title>
+    <meta name="keywords" content="Emre KARA,C,Java">
+    <meta name="description" content="Emre KARA">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font awesomw -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="tablet.css">
+    <!-- Mobile -->
+    <link rel="stylesheet" media="(max-width:550px)" href="mobile.css">
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar" >
+                <h1 class="heading-small">Emre KARA</h1>
+                <ul>
+                    <li><a href="#home">Homepage</a></li>
+                    <li><a href="#training">Education</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#information">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <img src="1.JPG" alt="passport-photo" >
+        <div class="name text-center">
+            <h2 class="heading-big">Emre KARA</h2>
+            <p>Electrical and electronics Engineer</p>
+        </div>
+        <a href="https://github.com/emrekara667" class="btn btn-dark">Go to Github</a>
+    </section>
+    <section id="information" class="bg-dark-blue">
+        <img src="1.JPG" alt="passport-2">
+        <div class="item">
+            <h4 class="head">Who am I ?</h4>
+            <article class="string">I graduated from electrical and electronics engineering in September 2021.I want to continue my
+                engineering career in the field of embedded systems and robotics. For this purpose, I am developing my C
+                programming knowledge and embedded systems knowledge with Stm32f4 series microcontrollers. I have
+                knowledge on basic subjects (Pid, Kalman filter, Sensor fusion, ADC, Timers, UART,SPI,I2C) in the field of
+                embedded systems and robotics .I am eager to learn and develop new technologies</article>
+        </div>
+    </section>
+
+    <section id="project" class="bg-light-blue">
+        <h3 class="text-center heading-medium">Projeler</h3>
+        <div class="items">
+
+            <article class="item">
+                <a href="https://github.com/emrekara667/STM32-NEXTION-AKILLI-EV"><i class="fas fa-project-diagram"></i></a>
+                <h3 class="text-center heading-medium">Smart Home Management</h3>
+                <p>I designed home automation using stm32f4 discovery board and
+                    nextion 2.8 inch touch screen.I controlled dc motor speed, light
+                    intensity, relay and servo motor via touch screen.I also showed the
+                    temperature and humidity values on the touch screen.Discovery
+                    board communicated with touch screen via uart. I used stm32cude
+                    ide and hal libraries in my project</p>
+                <ul>
+                    <li>C</li>
+                    <li>Stm32f4 Discovery</li>
+                </ul>
+            </article>
+            <article class="item">
+                <a href="https://github.com/emrekara667/Differetial-Drive"><i class="fas fa-project-diagram"></i></a>
+                <h3 class="text-center heading-medium">Differetial-Drive</h3>
+                <p>Routing of a mobile robot with differential drive
+                    </p>
+                <ul>
+                    <li>Python</li>
+                    <li>Robotic</li>
+                </ul>
+            </article>
+            <article class="item">
+                <a href=""><i class="fas fa-project-diagram"></i></a>
+                <h3 class="text-center heading-medium">Static Web Page</h3>
+                <p>Static web page design using html and css</p>
+                <ul>
+                    <li>Css</li>
+                    <li>Html</li>
+                </ul>
+            </article>
+                        <article class="item">
+                <a href="https://github.com/emrekara667/Dc-Motor-Control-Pid"><i class="fas fa-project-diagram"></i></a>
+                <h3 class="text-center heading-medium">DC Motor Control</h3>
+                <p>igned a PID controller.12V dc motor with encoder and arduino 
+                    was used as hardwarea and pid library was not used.
+                    DC motor control was realized between 100 and 10000 rpm</p>
+                <ul>
+                    <li>C++</li>
+                    <li>Arduino</li>
+                </ul>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitimler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Istanbul Medeniyet University</h3>
+                <p> Electrical and
+                    Electronics Engineering
+                </p>
+                <p class="time">09/2016 - 10/2021</p>
+            </article>
+            <article class="item">
+                <i class="fas fa-university"></i>
+                <h3>İstanbul Kadıköy Lisesi</h3>
+                <p>Math -Science</p>
+                <p class="time">09/2011 - 06/2015</p>
+            </article>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Contact Me</h4>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text"
+                     class="form-control"
+                      name="name" id="name"
+                       placeholder="İsim" />
+                </div>
+                <div class="form-group">
+                    <label for="email">E mail</label>
+                    <input type="text"
+                     class="form-control"
+                      name="email" id="email"
+                       placeholder="Email" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"
+                      rows="5" class="form-control"
+                      placeholder="Mesajınız..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block ">Submit</button>
+            </form>
+            <ul>
+                <li><a href="https://github.com/emrekara667"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/emre-kara-51a1a316b/"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/__emrekara/"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
